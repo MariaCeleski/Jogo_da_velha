@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(to right, #f52f0c, #c56963);
+    margin: 0px;
+    width:100%
+}  
+
+h1{
+    text-align:center;
+    font-size: 60px;
+    letter-spacing: 15px;
+    font-variant: small-caps;
+}
+h3{
+    font-size: 25px;
+    margin-left: 60px;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    color: aquamarine;
+    margin-left:60px;
+    margin-right: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;    
+}
+
+ul{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    color: aquamarine;
+    margin-left:60px;
+    margin-right: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;  
+    list-style: none;  
+}
+
+#jogarComputador{
+    text-align: center;
+    color: rgb(9, 9, 9);
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+
+}

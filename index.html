@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="velha.css">
+    <style>
+        
+    </style>
+
+</head>
+<body>
+    <h1>Jogo da Velha</h1>
+
+    <h3>Regras do Jogo</h3>
+    
+   
+    <p>1 - O tabuleiro é uma matriz de três linhas por três colunas.</p>
+    <p>2 - Dois jogadores escolhem uma marcação cada um, geralmente um círculo (O) e um xis (X).</p>
+    <p>3 - O objetivo é conseguir três círculos ou três xis em linha, quer horizontal, vertical ou diagonal , e ao mesmo tempo, quando possível, impedir o adversário de ganhar na próxima jogada.</p>
+    <p>4 - um jogador conquista o objetivo, costuma-se riscar os três símbolos.<p>   
+
+    <p>5 - Se os dois jogadores jogarem sempre da melhor forma, o jogo terminará sempre em empate.</p>
+    <p>6 - A lógica do jogo é muito simples, de modo que não é difícil deduzir ou decorar todas as possibilidades para efetuar a melhor jogada — apesar de o número total de possibilidades ser muito grande, a maioria delas é simétrica, além de que as regras são simples.</p>
+    <p>7 - Caso deseje jogar com o computador, marque na caixa de opção abaixo, o contrário, desmarque-a.</p>
+    <p>8 - Então vamos ao jogo?</p>
+
+    <div id=jogarComputador>
+        <b>Jogar contra o computador</b>
+        <input type="checkbox" id="cpu" checked>
+    </div>
+
+    <table class="estilo" align="center">
+        <tr>
+            <td><img src="imagens/branco.png" widht="150" height="150" id="cel1" onClick="checaJogo(this.id)"></td></td>
+            <td><img src="imagens/branco.png" widht="150" height="150" id="cel2" onClick="checaJogo(this.id)"></td></td>
+            <td><img src="imagens/branco.png" widht="150" height="150" id="cel3" onClick="checaJogo(this.id)"></td></td>
+        </tr>
+        <tr>
+            <td><img src="imagens/branco.png" widht="150" height="150" id="cel4" onClick="checaJogo(this.id)"></td></td>
+            <td><img src="imagens/branco.png" widht="150" height="150" id="cel5" onClick="checaJogo(this.id)"></td></td>
+            <td><img src="imagens/branco.png" widht="150" height="150" id="cel6" onClick="checaJogo(this.id)"></td></td>
+        </tr>
+        <tr>
+            <td><img src="imagens/branco.png" widht="150" height="150" id="cel7" onClick="checaJogo(this.id)"></td></td>
+            <td><img src="imagens/branco.png" widht="150" height="150" id="cel8" onClick="checaJogo(this.id)"></td></td> 
+            <td><img src="imagens/branco.png" widht="150" height="150" id="cel9" onClick="checaJogo(this.id)"></td></td>
+        </tr>
+    </table>
+
+</body>
+</html>
